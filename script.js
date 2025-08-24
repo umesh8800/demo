@@ -12,14 +12,17 @@
 // console.log("Reduce Result:", reduceResult); // 15
 
 
-let students = [
-    { name: "Alice", age: 20, grade: 85 },  
-    { name: "Bob", age: 22, grade: 90 },    
-    { name: "Charlie", age: 23, grade: 95 },
-    { name: "David", age: 21, grade: 88 }];
+// let students = [
+//     { name: "Alice", age: 20, grade: 85 },  
+//     { name: "Bob", age: 22, grade: 90 },    
+//     { name: "Charlie", age: 23, grade: 95 },
+//     { name: "David", age: 21, grade: 88 }];
 
-   let morethan20 = students.filter(student => student.age > 20).map(student => student.name);
-   console.log(morethan20);
+//    let morethan20 = students.filter(student => student.age > 20).map(student => student.name);
+//    console.log(morethan20);
 
 
-   
+for (let i = 1; i <= 5; i++) {
+        console.log(i);
+    
+}
