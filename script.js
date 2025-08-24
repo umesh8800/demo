@@ -20,3 +20,6 @@ let students = [
 
    let morethan20 = students.filter(student => student.age > 20).map(student => student.name);
    console.log(morethan20);
+
+
+   
